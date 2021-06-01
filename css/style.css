@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.content {
+    background: #F8F9FF;
+    border-radius: 8px;
+    margin: 0 24px;
+}
+.title {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.03em;
+    color: #4E4E4E;
+    margin-left: 24px;
+}
+.table-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    background: #195ABB;
+    border-radius: 8px 8px 0px 0px;
+    height: 56px;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+.table-wrap {
+    overflow-x: scroll;
+}
+@media screen and (min-width: 900px) {
+    .table-wrap {
+        overflow-x: auto;
+    }
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.body-title {
+    border-bottom: 2px solid rgba(25, 90, 187, 0.5);
+    text-align: left;
+}
+.id {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 40px;
+    color: #49388C;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.info {
+    border-bottom: 1px solid #D6D5D5;
+}
+.table-link {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3%;
+}
+.link {
+    background: #F8F9FF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #4E4E4E;
+    padding: 2px 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
+}
+.link:hover {
+    border: 1px solid rgba(25, 90, 187, 0.5);
+    background: #FFFFFF;
+}
+.table tbody tr:hover:nth-child(odd) {
+    background: white;
+}
+.table tbody tr:hover:nth-child(even) {
+    background: white;
+}
+.picture {
+    display: flex;
+    flex-direction: column;
+}
+.info td {
+    padding-top: 15px;
+}
+.table .info td, th {
+    padding: 12px 24px;
+}
+.span:hover::before {
+    content: "";
+    background: rgba(25, 90, 187, 0.5);
+    display: block;
+}
+.profile {
+    width: 100px;
+    padding-left: 190px;
+}
+.profile-icon {
+    padding-left: 172px;
+}
+.icon-up {
+    position: absolute;
+    left: 80px;
+    top: 25px;
+}
+.icon-down {
+    position: absolute;
+    left: 80px;
+    top: 34px;
+}
+.arrow-btn:hover {
+    cursor: pointer;
+    background: rgba(25, 90, 187, 0.5);
+}
